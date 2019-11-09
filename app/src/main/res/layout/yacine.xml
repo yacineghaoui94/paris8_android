@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Yacine"
+    tools:showIn="@layout/Yacine">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#4399ef"
+        android:gravity="center"
+        app:popupTheme="@style/AppTheme">
+
+        <ImageButton
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:src="@android:drawable/ic_input_delete" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textnom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  0"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/famb"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="#4399ef"
+            android:src="@android:drawable/btn_star" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <RadioGroup
+        android:id="@+id/rad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rad1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#ccc0c0"
+            android:gravity="center"
+            android:padding="17dp"
+            android:text="NIVEAU 1    3/3"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccc0c0"
+            android:gravity="center"
+            android:padding="17dp"
+            android:text="NIVEAU 2    4/4"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rad3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="#ccc0c0"
+            android:gravity="center"
+            android:padding="17dp"
+            android:text="NIVEAU 3    5/5 "
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rad4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccc0c0"
+            android:gravity="center"
+            android:padding="17dp"
+            android:text="NIVEAU 4    5/5"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rad5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="#ccc0c0"
+            android:gravity="center"
+            android:padding="17dp"
+            android:text="NIVEAU 5    6/6"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rad6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="#ccc0c0"
+            android:gravity="center"
+            android:padding="17dp"
+            android:text="NIVEAU 6    6/6"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bo1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#259cc5"
+        android:text="demarer"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:textStyle="italic" />
+</LinearLayout>
