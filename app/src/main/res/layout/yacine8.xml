@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:text="10"
-            android:textColor="#000007"
+            android:textColor="#900009"
             android:textSize="24dp" />
 
         <ImageButton

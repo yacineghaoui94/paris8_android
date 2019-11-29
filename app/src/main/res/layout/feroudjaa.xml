@@ -9,9 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="ANSUF YISSWEN"
-        android:textColor="#cc9004"
-        android:textSize="24dp"
+        android:text="bienvenus dans l applilaction "
+        android:textColor="#0c8804"
+        android:textSize="29dp"
         android:textStyle="bold" />
 
     <CheckBox
@@ -25,9 +25,9 @@
     <ImageButton
         android:id="@+id/glop"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="645dp"
         android:layout_margin="10dp"
-        android:src="@drawable/kabyle" />
+        android:src="@drawable/yacine" />
 
 
 </LinearLayout>

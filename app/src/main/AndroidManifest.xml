@@ -18,56 +18,43 @@
         </activity>
         <activity
             android:name=".Yacine"
-            android:label="@string/Bb">
-        </activity>
+            android:label="@string/Bb"></activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/Bb">
-        </activity>
+            android:label="@string/Bb"></activity>
         <activity
             android:name=".Yacine2"
-            android:label="@string/Aa">
-        </activity>
+            android:label="@string/Aa"></activity>
         <activity
             android:name=".Yacine3"
-            android:label="@string/cah">
-        </activity>
+            android:label="@string/cah"></activity>
         <activity
             android:name=".Yacine4"
-            android:label="@string/Bb">
-        </activity>
+            android:label="@string/Bb"></activity>
         <activity
             android:name=".Yacine5"
-            android:label="@string/Bb">
-        </activity>
+            android:label="@string/Bb"></activity>
         <activity
             android:name=".Yacine6"
-            android:label="@string/Bb">
-        </activity>
+            android:label="@string/Bb"></activity>
         <activity
             android:name=".Yacine7"
-            android:label="@string/Bb">
-        </activity>
+            android:label="@string/Bb"></activity>
         <activity
             android:name=".Yacine8"
-            android:label="@string/Bb">
-        </activity>
+            android:label="@string/Bb"></activity>
         <activity
             android:name=".Yacine9"
-            android:label="@string/Bb">
-        </activity>
+            android:label="@string/Bb"></activity>
         <activity
             android:name=".Yacine10"
-            android:label="@string/Bb">
-        </activity>
+            android:label="@string/Bb"></activity>
         <activity
             android:name=".Yacine11"
-            android:label="@string/Bb">
-        </activity>
+            android:label="@string/Bb"></activity>
         <activity
             android:name=".Yacine12"
-            android:label="@string/Bb">
-        </activity>
+            android:label="@string/Bb"></activity>
     </application>
 
 </manifest>

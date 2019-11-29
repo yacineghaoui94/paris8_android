@@ -118,8 +118,6 @@ public class Yacine extends Activity {
     }
 
     private View.OnClickListener rout1 = new View.OnClickListener() {
-
-
         public void onClick(View v) {
             Intent secondeActivite = new Intent(Yacine.this, Feroudja.class);
             startActivity(secondeActivite);

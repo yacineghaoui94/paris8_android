@@ -256,21 +256,21 @@ public class MainActivity extends Activity {
         premier2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                premier2.setImageResource(R.drawable.voo);
+                premier2.setImageResource(R.drawable.plage2);
                 petit = true;
             }
         });
         premier3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                premier3.setImageResource(R.drawable.vole);
+                premier3.setImageResource(R.drawable.plage3);
                 petit = true;
             }
         });
         premier4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                premier4.setImageResource(R.drawable.vol);
+                premier4.setImageResource(R.drawable.plage4);
                 petit = true;
             }
         });
@@ -301,17 +301,18 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                int vvv = R.string.vv;
+                int vvv = R.string.pp;
                 String vv = String.valueOf(vvv);
-                int ooo = R.string.oo;
+                int ooo = R.string.ll;
                 String oo = String.valueOf(ooo);
-                int lll = R.string.ll;
+                int lll = R.string.aa;
                 String ll = String.valueOf(lll);
-                int eee = R.string.ee;
+                int eee = R.string.gg;
                 String ee = String.valueOf(eee);
-                int rrr = R.string.rr;
+                int rrr = R.string.ee;
                 String rr = String.valueOf(rrr);
-                if (text1.getText().equals("V") && text2.getText().equals("O") && text3.getText().equals("L") && text4.getText().equals("E") && text5.getText().equals("R")) {
+                if (text1.getText().equals("P") && text2.getText().equals("L") && text3.getText().equals("A")
+                        && text4.getText().equals("G") && text5.getText().equals("E")) {
 
 
                     SharedPreferences preferenc = getSharedPreferences("pref", 0);
@@ -319,7 +320,7 @@ public class MainActivity extends Activity {
                     editor.putString(bol1, "vrai");
                     editor.commit();
 
-                    Toast.makeText(MainActivity.this, "sahit aya bandi !", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "Merci", Toast.LENGTH_LONG).show();
                     //***String kkk = textv.getText().toString();
                     Intent secondeActivite = new Intent(MainActivity.this, Yacine2.class);
                     secondeActivite.putExtra(BUTTONS1, pop1);

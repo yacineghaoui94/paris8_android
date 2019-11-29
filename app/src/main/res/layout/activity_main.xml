@@ -62,7 +62,7 @@
             android:layout_width="145dp"
             android:layout_height="92dp"
             android:layout_margin="1dp"
-            android:src="@drawable/voler" />
+            android:src="@drawable/plage1" />
 
         <ImageButton
             android:id="@+id/img2"
@@ -183,7 +183,7 @@
             android:layout_margin="3dp"
             android:background="#00a0ff"
             android:padding="10dp"
-            android:text="@string/aa"
+            android:text="@string/ee"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -227,7 +227,7 @@
             android:layout_margin="4dp"
             android:background="#00a0ff"
             android:padding="10dp"
-            android:text="@string/vv"
+            android:text="@string/pp"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -238,7 +238,7 @@
             android:layout_margin="4dp"
             android:background="#00a0ff"
             android:padding="10dp"
-            android:text="@string/ll"
+            android:text="@string/aa"
             android:textSize="18dp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -288,7 +288,7 @@
             android:layout_margin="4dp"
             android:background="#00a0ff"
             android:padding="10dp"
-            android:text="@string/oo"
+            android:text="@string/ll"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -299,7 +299,7 @@
             android:layout_margin="4dp"
             android:background="#00a0ff"
             android:padding="10dp"
-            android:text="@string/ee"
+            android:text="@string/gg"
             android:textSize="18dp"
             android:textStyle="bold" />
 
